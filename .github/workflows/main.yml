@@ -1,0 +1,13 @@
+name: My first action
+on: 
+  push:
+   branches: 
+   - main
+
+jobs:
+  hello:
+    runs-on: windows-latest
+
+    steps:
+      - name: Print Message
+        run: echo"Hello, I am learning Github action"
