@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Print Message
-        run: echo"Hello, I am learning Github action"
+        run: echo "Hello, I am learning Github action"
