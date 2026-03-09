@@ -1,0 +1,17 @@
+name: System Info
+
+on: push
+
+jobs:
+  system:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show Date
+        run: date
+
+      - name: Show Files
+        run: ls -la
+
+      - name: Show OS
+        run: unam -a
